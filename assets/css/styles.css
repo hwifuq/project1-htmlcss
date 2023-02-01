@@ -146,7 +146,6 @@ a {
   display: flex;
   align-items: center;
   height: 90px;
-  /* padding: 0 42px; */
   border-radius: 12px;
 }
 .clients .images a:hover{
