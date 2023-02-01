@@ -89,44 +89,44 @@ a {
 
 
 /* Header */
-.header {
+.hero-wrap {
+  /* padding-top: 130px; */
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-color: #e6f0ff;
   height: calc(100vh - 90px);
 }
-
-.hero {
-  padding-top: 130px;
-}
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
-.hero .sub-title {
+.hero-wrap .sub-title {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 1.5;
   letter-spacing: 0.01em;
   color: #687690;
 }
-.hero .title {
+.hero-wrap .title {
   margin-top: 8px;
   font-weight: 700;
   font-size: 6.2rem;
   line-height: 1.19;
   color: var(--main-color);
 }
-.hero .desc {
+.hero-wrap .desc {
   margin-top: 30px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.78;
   color: #5a6473;
 }
-.hero .hero-cta {
+.hero-wrap .hero-cta {
   min-width: 170px;
   margin-top: 40px;
 }
-.hero .hero-img {
+.hero-wrap .hero-img {
   position: absolute;
   right: calc((100vw - 1110px) / 2 - 100px);
   bottom: 0;
@@ -142,7 +142,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.clients .desc {
+.hero-wrap .clients .desc {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 1.25;
