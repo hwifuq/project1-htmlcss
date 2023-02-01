@@ -56,12 +56,6 @@ a {
   align-items: center;
   padding: 12px 0;
 }
-/* Header */
-.header {
-  position: relative;
-  background-color: #e6f0ff;
-  height: 100vh;
-}
 
 .navbar ul {
   display: flex;
@@ -88,6 +82,14 @@ a {
   border-radius: 8px;
   padding: 13px 16px;
   margin-left: 18px;
+}
+
+
+/* Header */
+.header {
+  position: relative;
+  background-color: #e6f0ff;
+  height: calc(100vh - 90px);
 }
 
 .hero {
